@@ -17,12 +17,14 @@ export default defineConfig({
       ],
     },
   },
-  title: "HynseDocs",
-  description: "A VitePress Site",
+  title: "Hynse Network",
+  description: "รวมการอัปเดตและเปลี่ยนต่างๆของเซิร์ฟเวอร์ และ วิธีการใช้งาน หรือ feature ต่างๆที่ไม่เคยรู้ว่ามีในเซิร์ฟเวอร์",
+  srcDir: './src',
   cleanUrls: true,
+  lastUpdated: true,
   transformHead: ({ pageData }) => {
     head: [
-      ['link', { rel: 'icon', href: '' }],
+      ['link', { rel: 'icon', href: '/favicon.ico' }],
       ['meta', { name: 'darkreader-lock' }],
     ],
     head.push([
@@ -36,9 +38,9 @@ export default defineConfig({
     return head;
   },
   themeConfig: {
-    editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path'
-    },
+    // editLink: {
+    //   pattern: 'https://github.com/MidnightTale/hynse-network-docs/tree/main/:path'
+    // },
     search: {
       provider: 'local'
     },

@@ -4,7 +4,7 @@
     --vp-c-green-1: #6b48bb;
     --vp-c-green-2: #b474de;
     --vp-c-green-3: #e08bf2;
-    --vp-c-green-soft: rgba(167, 243, 208, 0.14);
+    --vp-c-green-soft: rgba(243, 167, 237, 0.14);
   
     --vp-c-brand-1: var(--vp-c-green-1);
     --vp-c-brand-2: var(--vp-c-green-2);
@@ -24,11 +24,23 @@
     --vp-c-green-1: #f5d0fb;
     --vp-c-green-2: #e48ff3;
     --vp-c-green-3: #ce7de9;
-    --vp-c-green-soft: rgba(167, 243, 208, 0.16);
+    --vp-c-green-soft: rgba(243, 167, 237, 0.14);
+    --vp-c-bg: #101010;
+    --vp-c-bg-soft: #141414;
+    --vp-c-default-soft: #1b1b1b;
+  }
+  .icon {
+    border-radius: 0px !important;
   }
   
   .VPSocialLinks.VPNavBarSocialLinks.social-links {
     margin-right: 0;
+  }
+  .VPLink {
+    border-radius: 0px !important;
+  }
+  .VPFeature {
+    border-radius: 0px !important;
   }
   .crafting-table {
     position: relative;
