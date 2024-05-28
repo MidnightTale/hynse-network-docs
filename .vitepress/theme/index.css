@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/devin-chavez-font');
+:root {
+    --vp-c-green-1: #6b48bb;
+    --vp-c-green-2: #b474de;
+    --vp-c-green-3: #e08bf2;
+    --vp-c-green-soft: rgba(167, 243, 208, 0.14);
+  
+    --vp-c-brand-1: var(--vp-c-green-1);
+    --vp-c-brand-2: var(--vp-c-green-2);
+    --vp-c-brand-3: var(--vp-c-green-3);
+    --vp-c-brand-soft: var(--vp-c-green-soft);
+  
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(
+      120deg,
+      #b474de,
+      #e08bf2
+    );
+    --vp-font-family-base: "Athiti", sans-serif;
+  }
+  
+  .dark {
+    --vp-c-green-1: #f5d0fb;
+    --vp-c-green-2: #e48ff3;
+    --vp-c-green-3: #ce7de9;
+    --vp-c-green-soft: rgba(167, 243, 208, 0.16);
+  }
+  
+  .VPSocialLinks.VPNavBarSocialLinks.social-links {
+    margin-right: 0;
+  }
+  .crafting-table {
+    position: relative;
+    image-rendering: pixelated;
+  }
+  
+  .crafting-grid {
+    width: 100%;
+    height: auto;
+  }
+  
+  .itemx-count {
+    position: absolute;
+    bottom: 32%;
+    right: 9.6%; 
+    color: white;
+    font-family: 'Devin Chavez Font', sans-serif;
+    font-size: 2em;
+    text-shadow: 4px 4px 0px rgb(0, 0, 0);
+  }
+  .itemx {
+    position: absolute;
+    image-rendering: pixelated;
+    width: 11%;
+    height: auto;
+  }
+  .itemx3d {
+    -moz-transform: scale(0.7) rotate(30deg) skew(-6deg, -6deg);
+    -webkit-transform: scale(0.7) rotate(30deg) skew(-6deg, -6deg);
+    -o-transform: scale(0.7) rotate(30deg) skew(-6deg, -6deg);
+    -ms-transform: scale(0.7) rotate(30deg) skew(-6deg, -6deg);
+    transform: scale(0.7) rotate(30deg) skew(-6deg, -6deg);
+  }
+  
+  .slot-1 {
+    top: 22.5%;
+    left: 8.45%;
+  }
+  
+  .slot-2 {
+    top: 22.5%;
+    left: 21.57%;
+  }
+  .slot-3 {
+    top: 22.5%;
+    left: 34.9%;
+  }
+  
+  .slot-4 {
+    top: 46%;
+    left: 8.45%;
+  }
+  
+  .slot-5 {
+    top: 46%;
+    left: 21.57%;
+  }
+
+  .slot-6 {
+    top: 46%;
+    left: 34.9%;
+  }
+  .slot-7 {
+    top: 69%;
+    left: 8.45%;
+  }
+  
+  .slot-8 {
+    top: 69%;
+    left: 21.57%;
+  }
+  .slot-9 {
+    top: 69%;
+    left: 34.9%;
+  }
+  
+  .slot-0 {
+    top: 40%;
+    left: 75%;
+    width: 16%;
+  }
+
+  .language- {
+    display: none;
+  }
+  
