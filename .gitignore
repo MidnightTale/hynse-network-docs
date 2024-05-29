@@ -2,3 +2,4 @@ node_modules
 .vitepress/cache/*
 assets/minecraft/*
 src/assets/minecraft/*
+.vitepress/dist/*

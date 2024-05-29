@@ -22,21 +22,10 @@ export default defineConfig({
   srcDir: './src',
   cleanUrls: true,
   lastUpdated: true,
-  transformHead: ({ pageData }) => {
-    head: [
+  head: [
       ['link', { rel: 'icon', href: '/favicon.ico' }],
       ['meta', { name: 'darkreader-lock' }],
     ],
-    head.push([
-      "meta",
-      { property: "og:title", content: pageData.frontmatter.title }
-    ])
-    head.push([
-      "meta",
-      { property: "og:description", content: pageData.frontmatter.description }
-    ])
-    return head;
-  },
   themeConfig: {
     // editLink: {
     //   pattern: 'https://github.com/MidnightTale/hynse-network-docs/tree/main/:path'
@@ -54,16 +43,20 @@ export default defineConfig({
       {
         text: 'แปลี่ยนแปลง',
         items: [
-          { text: 'สูตรคราฟ', link: '/changes/crafting' },
-          { text: 'ไอเท็ม', link: '/changes/item' },
-          { text: 'บล็อก', link: '/changes/block' },
-          { text: 'สิ่งมีชีวิต', link: '/changes/entity' }
+          { text: '🔧 สูตรคราฟ', link: '/changes/crafting' },
+          { text: '🔩 ไอเท็ม', link: '/changes/item' },
+          { text: '🧱 บล็อก', link: '/changes/block' },
+          { text: '😸 สิ่งมีชีวิต', link: '/changes/entity' }
         ]
       },
       {
         text: 'ส่วนเสริมเพิ่มเติม',
         items: [
-          { text: 'Extender Tool', link: '/addon/extender_tool' }
+          { text: '🛠️ Extender Tool', link: '/addon/extender_tool' },
+          { text: '💀 Hydeath', link: '/addon/hydeath' },
+          { text: '💰 Lootin', link: '/addon/lootin' },
+          { text: '⚖️ Scaleshifter', link: '/addon/scaleshifter' },
+          { text: '🎙️ Voicechat', link: '/addon/voicechat' }        
         ]
       }
     ],
