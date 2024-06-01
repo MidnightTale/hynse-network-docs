@@ -14,16 +14,16 @@ Extender Tool เป็นเครื่องมือที่สามาร
 
 ```
 <div class="crafting-table">
-    <img src="/assets/crafting/crafting_grid.png" alt="Crafting Table" class="crafting-grid">
-    <img src="/assets/custom/copper_block.png" alt="Copper Block" class="itemx slot-8">
-    <img src="/assets/custom/copper_block.png" alt="Copper Block" class="itemx slot-4">
-    <img src="/assets/custom/copper_block.png" alt="Copper Block" class="itemx slot-2">
-    <img src="/assets/custom/copper_block.png" alt="Copper Block" class="itemx slot-6">
-    <img src="/assets/minecraft/textures/item/breeze_rod.png" alt="Breeze Rod" class="itemx slot-5">
-    <img src="/assets/minecraft/textures/item/breeze_rod.png" alt="Breeze Rod" class="itemx slot-3">
-    <img src="/assets/minecraft/textures/item/powder_snow_bucket.png" alt="Powder Snow Bucket" class="itemx slot-7">
+    <img src="https://assets.hynse.net/crafting/crafting_grid.png" alt="Crafting Table" class="crafting-grid">
+    <img src="https://assets.hynse.net/custom/copper_block.png" alt="Copper Block" class="itemx slot-8">
+    <img src="https://assets.hynse.net/custom/copper_block.png" alt="Copper Block" class="itemx slot-4">
+    <img src="https://assets.hynse.net/custom/copper_block.png" alt="Copper Block" class="itemx slot-2">
+    <img src="https://assets.hynse.net/custom/copper_block.png" alt="Copper Block" class="itemx slot-6">
+    <img src="https://assets.hynse.net/minecraft/textures/item/breeze_rod.png" alt="Breeze Rod" class="itemx slot-5">
+    <img src="https://assets.hynse.net/minecraft/textures/item/breeze_rod.png" alt="Breeze Rod" class="itemx slot-3">
+    <img src="https://assets.hynse.net/minecraft/textures/item/powder_snow_bucket.png" alt="Powder Snow Bucket" class="itemx slot-7">
     <div class="result-slot">
-      <img src="/assets/custom/extender_tool_2.png" alt="Extender Tool" class="itemx slot-0">
+      <img src="https://assets.hynse.net/custom/extender_tool_2.png" alt="Extender Tool" class="itemx slot-0">
       <div class="itemx-count">1</div>
     </div>
   </div>

@@ -23,7 +23,7 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   head: [
-      ['link', { rel: 'icon', href: '/favicon.ico' }],
+      ['link', { rel: 'icon', href: '/favicon_pride.ico' }],
       ['meta', { name: 'darkreader-lock' }],
     ],
   themeConfig: {
