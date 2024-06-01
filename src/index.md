@@ -7,7 +7,7 @@ hero:
   text: "แหล่งข้อมูล"
   tagline: รวมการอัปเดตและเปลี่ยนต่างๆของเซิร์ฟเวอร์ และ วิธีการใช้งาน หรือ feature ต่างๆที่ไม่เคยรู้ว่ามีในเซิร์ฟเวอร์
   image:
-    src: /assets/logo_pride.png
+    src: https://assets.hynse.net/logo_pride.png
     alt: Hynse Network
   # actions:
   #   - theme: brand
