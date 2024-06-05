@@ -1,5 +1,5 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
+# https://vitepress.dev/reference/default-theme-home-page  
 layout: home
 
 hero:
@@ -26,7 +26,12 @@ features:
   - title: ส่วนเสริมเพิ่มเติม
     icon: 📦
     details: สิ่งที่เพิ่มเข้ามาใหม่ไม่ได้ในแบบปกติ
-    link: ./addon/extender_tool
+    link: ./addons/extender_tool
+    linkText: อ่าน
+  - title: เซิร์ฟเวอร์
+    icon: 📡
+    details: รายระเอียกข้อมูลต่างและการตั้งค่าเซิร์ฟเวอร์และโลก
+    link: ./servers/survival
     linkText: อ่าน
 ---
 

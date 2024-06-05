@@ -52,11 +52,19 @@ export default defineConfig({
       {
         text: 'ส่วนเสริมเพิ่มเติม',
         items: [
-          { text: '🛠️ Extender Tool', link: '/addon/extender_tool' },
-          { text: '💀 Hydeath', link: '/addon/hydeath' },
-          { text: '💰 Lootin', link: '/addon/lootin' },
-          { text: '⚖️ Scaleshifter', link: '/addon/scaleshifter' },
-          { text: '🎙️ Voicechat', link: '/addon/voicechat' }        
+          { text: '🛠️ Extender Tool', link: '/addons/extender_tool' },
+          { text: '💀 Hydeath', link: '/addons/hydeath' },
+          { text: '💰 Lootin', link: '/addons/lootin' },
+          { text: '⚖️ Scaleshifter', link: '/addons/scaleshifter' },
+          { text: '🎙️ Voicechat', link: '/addons/voicechat' }        
+        ]
+      },
+      {
+        text: 'เซิร์ฟเวอร์',
+        items: [
+          { text: '🍦 Vanilla', link: '/servers/survival' },   
+          { text: '🎨 Creative', link: '/servers/creative' },   
+          { text: '🚧 Testing', link: '/servers/dev' },   
         ]
       }
     ],
