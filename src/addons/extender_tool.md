@@ -44,7 +44,7 @@ Extender Tool เป็นเครื่องมือที่สามาร
 <video controls src="../assets/videos/Base Profile 2024.05.27 - 19.22.13.01.mp4" title="Title"></video>
 
 
-แค่ต้องระวังไว้เพราะถ้าใช้มากเกินไปมันจะร้อน และ ผู้จะเจ็บตัว
+แค่ต้องระวังไว้เพราะถ้าใช้มากเกินไปมันจะร้อนและผู้ใช้จะเจ็บตัว
 <video controls src="../assets/videos/Base Profile 2024.05.29 - 10.12.33.17.mp4" title="Title"></video>
 
 ## ประวัติ

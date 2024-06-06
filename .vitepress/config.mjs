@@ -34,10 +34,10 @@ export default defineConfig({
       provider: 'local'
     },
     // https://vitepress.dev/reference/default-theme-config
-    // nav: [
-    //   { text: 'Home', link: '/' },
-    //   { text: 'แปลี่ยนแปลง', link: '/changes' }
-    // ],
+    nav: [
+      { text: 'เว็บหลัก', link: 'https://hynse.net' },
+      { text: 'แผนที่', link: 'https://map.hynse.net' },
+    ],
 
     sidebar: [
       {
@@ -53,6 +53,9 @@ export default defineConfig({
         text: 'ส่วนเสริมเพิ่มเติม',
         items: [
           { text: '🛠️ Extender Tool', link: '/addons/extender_tool' },
+          { text: '🛠️ Trowel', link: '/addons/trowel' },
+          { text: '🛠️ Rotation Wrench', link: '/addons/rotation_wrench' },
+          { text: '🛠️ Bottle Cloud', link: '/addons/bottle_cloud' },
           { text: '💀 Hydeath', link: '/addons/hydeath' },
           { text: '💰 Lootin', link: '/addons/lootin' },
           { text: '⚖️ Scaleshifter', link: '/addons/scaleshifter' },
